@@ -1,0 +1,52 @@
+body{
+    width: 1440px;
+    background-color: hsl(233, 47%, 7%);
+    padding: 200px; 
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;   
+        
+}
+
+.flex-container{
+    width: 1000px;
+    display: flex;
+    background-color: hsl(244, 38%, 16%);
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    border-radius: 10px;  
+      
+}
+
+.flex-container > div{
+    width: 50%;
+   
+}
+
+p, h1, table{
+    color: aliceblue;
+    font-family: 'Inter', sans-serif;
+    font-weight:400, 700;
+    font-size: 15px;
+    padding-left: 50px; 
+      
+}
+
+img{
+    width: 540px;
+    height: 446px;
+    display: block;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+}
+
+div.stats, div.stats span{
+    display: inline;
+    color: aliceblue;
+    padding-left: 50px;
+}
+
+table .heads td {
+   color: hsl(0, 0%, 100%); 
+}
